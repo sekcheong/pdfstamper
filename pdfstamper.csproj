@@ -41,6 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objects\PdfArray.cs" />
+    <Compile Include="Objects\PdfBoolean.cs" />
+    <Compile Include="Objects\PdfDictionary.cs" />
+    <Compile Include="Objects\PdfIndirectObject.cs" />
+    <Compile Include="Objects\PdfIndirectReference.cs" />
+    <Compile Include="Objects\PdfName.cs" />
+    <Compile Include="Objects\PdfNullObject.cs" />
+    <Compile Include="Objects\PdfNumber.cs" />
+    <Compile Include="Objects\PdfStream.cs" />
+    <Compile Include="Objects\PdfString.cs" />
+    <Compile Include="PdfCorssReferenceTable.cs" />
+    <Compile Include="PdfLexer.cs" />
+    <Compile Include="Objects\PdfObject.cs" />
+    <Compile Include="PdfParser.cs" />
+    <Compile Include="PdfToken.cs" />
+    <Compile Include="PdfTrailer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
